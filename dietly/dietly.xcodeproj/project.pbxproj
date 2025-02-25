@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36103A9A2C9F9F0C0036FFDF /* RepasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36103A992C9F9DA70036FFDF /* RepasView.swift */; };
+		36103AA02C9FA2850036FFDF /* WeightTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36103A9F2C9FA1410036FFDF /* WeightTrackingView.swift */; };
+		36103AA12C9FA2940036FFDF /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36103A9D2C9FA0D20036FFDF /* RemindersView.swift */; };
+		36103AA22C9FA29E0036FFDF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36103A9C2C9FA0750036FFDF /* SettingsView.swift */; };
+		36103AA32C9FA2A60036FFDF /* WaterIntakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36103A9B2C9FA0600036FFDF /* WaterIntakeView.swift */; };
+		36103AA42C9FA42A0036FFDF /* PhysicalActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36103A9E2C9FA1290036FFDF /* PhysicalActivityView.swift */; };
+		36103AA62CA0408B0036FFDF /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36103AA52CA0405E0036FFDF /* BarChartView.swift */; };
+		36132DAA2CA19FCF00D7BDD8 /* OpenFoodFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36132DA52CA19B1400D7BDD8 /* OpenFoodFact.swift */; };
+		36132DEF2CA1BE8C00D7BDD8 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36132DEE2CA1BE8800D7BDD8 /* BarcodeScannerView.swift */; };
+		36132DF32CA1C30600D7BDD8 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36132DF22CA1C2FF00D7BDD8 /* ScanView.swift */; };
+		36269EAA2CA9A9D900A959C1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36269EA92CA9A9D800A959C1 /* NetworkManager.swift */; };
+		365331262C9D7DAD00297214 /* dietlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365331252C9D7DAD00297214 /* dietlyApp.swift */; };
+		365331282C9D7DAD00297214 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365331272C9D7DAD00297214 /* ContentView.swift */; };
+		3653312A2C9D7DAE00297214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365331292C9D7DAE00297214 /* Assets.xcassets */; };
+		3653312D2C9D7DAE00297214 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3653312C2C9D7DAE00297214 /* Preview Assets.xcassets */; };
+		365331322C9D7DAE00297214 /* dietly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 365331302C9D7DAE00297214 /* dietly.xcdatamodeld */; };
+		3653313C2C9D7DAF00297214 /* dietlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653313B2C9D7DAF00297214 /* dietlyTests.swift */; };
+		365331462C9D7DAF00297214 /* dietlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365331452C9D7DAF00297214 /* dietlyUITests.swift */; };
+		365331482C9D7DAF00297214 /* dietlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365331472C9D7DAF00297214 /* dietlyUITestsLaunchTests.swift */; };
+		365331552C9D88D200297214 /* CoreDataFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365331542C9D88D200297214 /* CoreDataFunctions.swift */; };
+		365331592C9D892500297214 /* AddCalorieLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365331582C9D892500297214 /* AddCalorieLogView.swift */; };
+		3653315B2C9D893D00297214 /* AddWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653315A2C9D893D00297214 /* AddWeightView.swift */; };
+		3653315D2C9D899B00297214 /* WeightLogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653315C2C9D899B00297214 /* WeightLogListView.swift */; };
+		3653315F2C9D905600297214 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653315E2C9D905600297214 /* SignUpView.swift */; };
+		365331612C9D907100297214 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365331602C9D907100297214 /* LoginView.swift */; };
+		365331632C9D922C00297214 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365331622C9D922C00297214 /* HomeView.swift */; };
+		365331652C9D9EEB00297214 /* ActivityLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365331642C9D9EEB00297214 /* ActivityLogView.swift */; };
+		365331672C9D9FB700297214 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365331662C9D9FB700297214 /* AppState.swift */; };
+		365331692C9DA2B700297214 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365331682C9DA2B700297214 /* UserListView.swift */; };
+		3653316B2C9DF11A00297214 /* InfoUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653316A2C9DF11A00297214 /* InfoUserView.swift */; };
+		3653316D2C9DFD0900297214 /* HistoriqueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653316C2C9DFD0900297214 /* HistoriqueView.swift */; };
+		369813B42C9EE21E002AE145 /* DailyCalories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369813B22C9EE173002AE145 /* DailyCalories.swift */; };
+		369813B52C9EE225002AE145 /* NutritionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369813B32C9EE18D002AE145 /* NutritionCardView.swift */; };
+		36F8BC8E2C9ECE5A004C7181 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F8BC8D2C9ECE4C004C7181 /* PersistenceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		365331382C9D7DAF00297214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3653311A2C9D7DAD00297214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 365331212C9D7DAD00297214;
+			remoteInfo = dietly;
+		};
+		365331422C9D7DAF00297214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3653311A2C9D7DAD00297214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 365331212C9D7DAD00297214;
+			remoteInfo = dietly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36103A992C9F9DA70036FFDF /* RepasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepasView.swift; sourceTree = "<group>"; };
+		36103A9B2C9FA0600036FFDF /* WaterIntakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterIntakeView.swift; sourceTree = "<group>"; };
+		36103A9C2C9FA0750036FFDF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		36103A9D2C9FA0D20036FFDF /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		36103A9E2C9FA1290036FFDF /* PhysicalActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalActivityView.swift; sourceTree = "<group>"; };
+		36103A9F2C9FA1410036FFDF /* WeightTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrackingView.swift; sourceTree = "<group>"; };
+		36103AA52CA0405E0036FFDF /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		36132DA52CA19B1400D7BDD8 /* OpenFoodFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenFoodFact.swift; sourceTree = "<group>"; };
+		36132DEC2CA1B78C00D7BDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		36132DEE2CA1BE8800D7BDD8 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
+		36132DF22CA1C2FF00D7BDD8 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		36269EA92CA9A9D800A959C1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		365331222C9D7DAD00297214 /* dietly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dietly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		365331252C9D7DAD00297214 /* dietlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dietlyApp.swift; sourceTree = "<group>"; };
+		365331272C9D7DAD00297214 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		365331292C9D7DAE00297214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3653312C2C9D7DAE00297214 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		365331312C9D7DAE00297214 /* dietly.xcdatamodel */ = {isa = PBXFileReference; explicitFileType = wrapper.xcdatamodel; path = dietly.xcdatamodel; sourceTree = "<group>"; };
+		365331372C9D7DAF00297214 /* dietlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dietlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3653313B2C9D7DAF00297214 /* dietlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dietlyTests.swift; sourceTree = "<group>"; };
+		365331412C9D7DAF00297214 /* dietlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dietlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		365331452C9D7DAF00297214 /* dietlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dietlyUITests.swift; sourceTree = "<group>"; };
+		365331472C9D7DAF00297214 /* dietlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dietlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		365331542C9D88D200297214 /* CoreDataFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFunctions.swift; sourceTree = "<group>"; };
+		365331582C9D892500297214 /* AddCalorieLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCalorieLogView.swift; sourceTree = "<group>"; };
+		3653315A2C9D893D00297214 /* AddWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeightView.swift; sourceTree = "<group>"; };
+		3653315C2C9D899B00297214 /* WeightLogListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightLogListView.swift; sourceTree = "<group>"; };
+		3653315E2C9D905600297214 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		365331602C9D907100297214 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		365331622C9D922C00297214 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		365331642C9D9EEB00297214 /* ActivityLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLogView.swift; sourceTree = "<group>"; };
+		365331662C9D9FB700297214 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		365331682C9DA2B700297214 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		3653316A2C9DF11A00297214 /* InfoUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoUserView.swift; sourceTree = "<group>"; };
+		3653316C2C9DFD0900297214 /* HistoriqueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoriqueView.swift; sourceTree = "<group>"; };
+		369813B22C9EE173002AE145 /* DailyCalories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCalories.swift; sourceTree = "<group>"; };
+		369813B32C9EE18D002AE145 /* NutritionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionCardView.swift; sourceTree = "<group>"; };
+		36B836952CB43FB6009B5BC7 /* dietly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dietly.entitlements; sourceTree = "<group>"; };
+		36F8BC8D2C9ECE4C004C7181 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		365331342C9D7DAF00297214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3653313E2C9D7DAF00297214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		365331192C9D7DAD00297214 = {
+			isa = PBXGroup;
+			children = (
+				36269EA92CA9A9D800A959C1 /* NetworkManager.swift */,
+				365331622C9D922C00297214 /* HomeView.swift */,
+				36132DF22CA1C2FF00D7BDD8 /* ScanView.swift */,
+				365331272C9D7DAD00297214 /* ContentView.swift */,
+				365331252C9D7DAD00297214 /* dietlyApp.swift */,
+				365331662C9D9FB700297214 /* AppState.swift */,
+				36132DA52CA19B1400D7BDD8 /* OpenFoodFact.swift */,
+				365331242C9D7DAD00297214 /* dietly */,
+				36132DEE2CA1BE8800D7BDD8 /* BarcodeScannerView.swift */,
+				36132DEC2CA1B78C00D7BDD8 /* Info.plist */,
+				3653313A2C9D7DAF00297214 /* dietlyTests */,
+				365331442C9D7DAF00297214 /* dietlyUITests */,
+				365331232C9D7DAD00297214 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		365331232C9D7DAD00297214 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				365331222C9D7DAD00297214 /* dietly.app */,
+				365331372C9D7DAF00297214 /* dietlyTests.xctest */,
+				365331412C9D7DAF00297214 /* dietlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		365331242C9D7DAD00297214 /* dietly */ = {
+			isa = PBXGroup;
+			children = (
+				36B836952CB43FB6009B5BC7 /* dietly.entitlements */,
+				36103A9B2C9FA0600036FFDF /* WaterIntakeView.swift */,
+				36103AA52CA0405E0036FFDF /* BarChartView.swift */,
+				369813B32C9EE18D002AE145 /* NutritionCardView.swift */,
+				36103A9D2C9FA0D20036FFDF /* RemindersView.swift */,
+				36103A9C2C9FA0750036FFDF /* SettingsView.swift */,
+				36103A9E2C9FA1290036FFDF /* PhysicalActivityView.swift */,
+				36103A9F2C9FA1410036FFDF /* WeightTrackingView.swift */,
+				36103A992C9F9DA70036FFDF /* RepasView.swift */,
+				369813B22C9EE173002AE145 /* DailyCalories.swift */,
+				36F8BC8D2C9ECE4C004C7181 /* PersistenceController.swift */,
+				3653315A2C9D893D00297214 /* AddWeightView.swift */,
+				365331292C9D7DAE00297214 /* Assets.xcassets */,
+				365331302C9D7DAE00297214 /* dietly.xcdatamodeld */,
+				3653312B2C9D7DAE00297214 /* Preview Content */,
+				365331542C9D88D200297214 /* CoreDataFunctions.swift */,
+				365331582C9D892500297214 /* AddCalorieLogView.swift */,
+				3653315C2C9D899B00297214 /* WeightLogListView.swift */,
+				3653315E2C9D905600297214 /* SignUpView.swift */,
+				365331602C9D907100297214 /* LoginView.swift */,
+				365331642C9D9EEB00297214 /* ActivityLogView.swift */,
+				365331682C9DA2B700297214 /* UserListView.swift */,
+				3653316A2C9DF11A00297214 /* InfoUserView.swift */,
+				3653316C2C9DFD0900297214 /* HistoriqueView.swift */,
+			);
+			path = dietly;
+			sourceTree = "<group>";
+		};
+		3653312B2C9D7DAE00297214 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3653312C2C9D7DAE00297214 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3653313A2C9D7DAF00297214 /* dietlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3653313B2C9D7DAF00297214 /* dietlyTests.swift */,
+			);
+			path = dietlyTests;
+			sourceTree = "<group>";
+		};
+		365331442C9D7DAF00297214 /* dietlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				365331452C9D7DAF00297214 /* dietlyUITests.swift */,
+				365331472C9D7DAF00297214 /* dietlyUITestsLaunchTests.swift */,
+			);
+			path = dietlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		365331212C9D7DAD00297214 /* dietly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3653314B2C9D7DAF00297214 /* Build configuration list for PBXNativeTarget "dietly" */;
+			buildPhases = (
+				3653311E2C9D7DAD00297214 /* Sources */,
+				365331202C9D7DAD00297214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dietly;
+			productName = dietly;
+			productReference = 365331222C9D7DAD00297214 /* dietly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		365331362C9D7DAF00297214 /* dietlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3653314E2C9D7DAF00297214 /* Build configuration list for PBXNativeTarget "dietlyTests" */;
+			buildPhases = (
+				365331332C9D7DAF00297214 /* Sources */,
+				365331342C9D7DAF00297214 /* Frameworks */,
+				365331352C9D7DAF00297214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				365331392C9D7DAF00297214 /* PBXTargetDependency */,
+			);
+			name = dietlyTests;
+			productName = dietlyTests;
+			productReference = 365331372C9D7DAF00297214 /* dietlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		365331402C9D7DAF00297214 /* dietlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365331512C9D7DAF00297214 /* Build configuration list for PBXNativeTarget "dietlyUITests" */;
+			buildPhases = (
+				3653313D2C9D7DAF00297214 /* Sources */,
+				3653313E2C9D7DAF00297214 /* Frameworks */,
+				3653313F2C9D7DAF00297214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				365331432C9D7DAF00297214 /* PBXTargetDependency */,
+			);
+			name = dietlyUITests;
+			productName = dietlyUITests;
+			productReference = 365331412C9D7DAF00297214 /* dietlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3653311A2C9D7DAD00297214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					365331212C9D7DAD00297214 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					365331362C9D7DAF00297214 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 365331212C9D7DAD00297214;
+					};
+					365331402C9D7DAF00297214 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 365331212C9D7DAD00297214;
+					};
+				};
+			};
+			buildConfigurationList = 3653311D2C9D7DAD00297214 /* Build configuration list for PBXProject "dietly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 365331192C9D7DAD00297214;
+			packageReferences = (
+			);
+			productRefGroup = 365331232C9D7DAD00297214 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				365331212C9D7DAD00297214 /* dietly */,
+				365331362C9D7DAF00297214 /* dietlyTests */,
+				365331402C9D7DAF00297214 /* dietlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		365331202C9D7DAD00297214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3653312D2C9D7DAE00297214 /* Preview Assets.xcassets in Resources */,
+				3653312A2C9D7DAE00297214 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365331352C9D7DAF00297214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3653313F2C9D7DAF00297214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3653311E2C9D7DAD00297214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365331552C9D88D200297214 /* CoreDataFunctions.swift in Sources */,
+				365331282C9D7DAD00297214 /* ContentView.swift in Sources */,
+				3653315D2C9D899B00297214 /* WeightLogListView.swift in Sources */,
+				3653315B2C9D893D00297214 /* AddWeightView.swift in Sources */,
+				365331632C9D922C00297214 /* HomeView.swift in Sources */,
+				36103AA02C9FA2850036FFDF /* WeightTrackingView.swift in Sources */,
+				3653316B2C9DF11A00297214 /* InfoUserView.swift in Sources */,
+				36103AA62CA0408B0036FFDF /* BarChartView.swift in Sources */,
+				3653316D2C9DFD0900297214 /* HistoriqueView.swift in Sources */,
+				36132DAA2CA19FCF00D7BDD8 /* OpenFoodFact.swift in Sources */,
+				36103AA12C9FA2940036FFDF /* RemindersView.swift in Sources */,
+				365331322C9D7DAE00297214 /* dietly.xcdatamodeld in Sources */,
+				365331692C9DA2B700297214 /* UserListView.swift in Sources */,
+				36F8BC8E2C9ECE5A004C7181 /* PersistenceController.swift in Sources */,
+				36103AA32C9FA2A60036FFDF /* WaterIntakeView.swift in Sources */,
+				369813B42C9EE21E002AE145 /* DailyCalories.swift in Sources */,
+				36103A9A2C9F9F0C0036FFDF /* RepasView.swift in Sources */,
+				365331262C9D7DAD00297214 /* dietlyApp.swift in Sources */,
+				36269EAA2CA9A9D900A959C1 /* NetworkManager.swift in Sources */,
+				3653315F2C9D905600297214 /* SignUpView.swift in Sources */,
+				365331612C9D907100297214 /* LoginView.swift in Sources */,
+				36103AA42C9FA42A0036FFDF /* PhysicalActivityView.swift in Sources */,
+				36132DF32CA1C30600D7BDD8 /* ScanView.swift in Sources */,
+				365331672C9D9FB700297214 /* AppState.swift in Sources */,
+				369813B52C9EE225002AE145 /* NutritionCardView.swift in Sources */,
+				36132DEF2CA1BE8C00D7BDD8 /* BarcodeScannerView.swift in Sources */,
+				365331652C9D9EEB00297214 /* ActivityLogView.swift in Sources */,
+				365331592C9D892500297214 /* AddCalorieLogView.swift in Sources */,
+				36103AA22C9FA29E0036FFDF /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365331332C9D7DAF00297214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3653313C2C9D7DAF00297214 /* dietlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3653313D2C9D7DAF00297214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365331462C9D7DAF00297214 /* dietlyUITests.swift in Sources */,
+				365331482C9D7DAF00297214 /* dietlyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		365331392C9D7DAF00297214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 365331212C9D7DAD00297214 /* dietly */;
+			targetProxy = 365331382C9D7DAF00297214 /* PBXContainerItemProxy */;
+		};
+		365331432C9D7DAF00297214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 365331212C9D7DAD00297214 /* dietly */;
+			targetProxy = 365331422C9D7DAF00297214 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		365331492C9D7DAF00297214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = /Users/inesouarghi/Desktop/dietly/dietly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3653314A2C9D7DAF00297214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = /Users/inesouarghi/Desktop/dietly/dietly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3653314C2C9D7DAF00297214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = dietly/dietly.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dietly/Preview Content\"";
+				DEVELOPMENT_TEAM = 67DJ94GGJC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				"INFOPLIST_FILE[sdk=*]" = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = dietly;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inesouarghi.dietly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3653314D2C9D7DAF00297214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = dietly/dietly.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dietly/Preview Content\"";
+				DEVELOPMENT_TEAM = 67DJ94GGJC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = dietly;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inesouarghi.dietly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3653314F2C9D7DAF00297214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67DJ94GGJC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inesouarghi.dietlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dietly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dietly";
+			};
+			name = Debug;
+		};
+		365331502C9D7DAF00297214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67DJ94GGJC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inesouarghi.dietlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dietly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dietly";
+			};
+			name = Release;
+		};
+		365331522C9D7DAF00297214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67DJ94GGJC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inesouarghi.dietlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dietly;
+			};
+			name = Debug;
+		};
+		365331532C9D7DAF00297214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67DJ94GGJC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inesouarghi.dietlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dietly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3653311D2C9D7DAD00297214 /* Build configuration list for PBXProject "dietly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365331492C9D7DAF00297214 /* Debug */,
+				3653314A2C9D7DAF00297214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3653314B2C9D7DAF00297214 /* Build configuration list for PBXNativeTarget "dietly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3653314C2C9D7DAF00297214 /* Debug */,
+				3653314D2C9D7DAF00297214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3653314E2C9D7DAF00297214 /* Build configuration list for PBXNativeTarget "dietlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3653314F2C9D7DAF00297214 /* Debug */,
+				365331502C9D7DAF00297214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365331512C9D7DAF00297214 /* Build configuration list for PBXNativeTarget "dietlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365331522C9D7DAF00297214 /* Debug */,
+				365331532C9D7DAF00297214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		365331302C9D7DAE00297214 /* dietly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				365331312C9D7DAE00297214 /* dietly.xcdatamodel */,
+			);
+			currentVersion = 365331312C9D7DAE00297214 /* dietly.xcdatamodel */;
+			path = dietly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3653311A2C9D7DAD00297214 /* Project object */;
+}
